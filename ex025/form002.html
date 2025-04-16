@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <!---o autocomplete serve para ajudar o usuário a digitar informações mais rápidas, ou seja, fornece os dados salvos no navegador, a exemplo de: nome, rua, sexo, telefone etc-->
+        <p>
+            <label for="iusu">Usuário</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" size="10" placeholder="nome do usuário">
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required maxlength="8">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="reset">
+        </p>
+
+    </form>
+</body>
+</html>

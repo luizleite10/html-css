@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(4, 4, 4) ;
+    
+    
+}
+body{
+    background: url(pacote-d013/imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    
+}
+
+section#iphone {
+    height: 627px;
+    width: 311px;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-size: ;
+}
+
+section#app{
+    height: 350px;
+    width: 60px;
+    position: absolute;
+    left: 70%;
+    text-align: center;
+ 
+    
+}
+
+section img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    margin-left: 100%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+   
+}
+
+section img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgb(239, 78, 78);
+    transition: transform 0.5s;
+}
+
+section a#rd{
+    text-align: right;
+}
+
+ iframe{
+    background-size: cover;
+    overflow: scroll;
+    scrollbar-width: none;
+    height: 472px;
+    margin-left: 21px;
+    width: 269px;
+    margin-top: 80px;
+    
+
+ }
+
+
+ 

@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body,html{
+
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body{
+    background-image: url(pacote-d013/pacote-d013/imagens/fundo-madeira.jpg);
+    background-position: center;
+}
+
+
+
+main{
+    height: 100vh;
+    position: relative;
+   
+}
+
+.iphone{
+    position: absolute;
+    height: 627px;
+    width: 311px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(pacote-d013/pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+}
+
+.app img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+section.app{
+    text-align: right;
+}
+
+iframe{
+    background-size: cover;
+    height: 472px;
+    margin-left: 21px;
+    width: 269px;
+    margin-top: 80px;
+    
+}
